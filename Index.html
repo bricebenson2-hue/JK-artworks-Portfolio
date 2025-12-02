@@ -1,43 +1,87 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>With CSS</title>
-    <style>
-      body {
-        background-color: #f0f8ff; /* Light blue background */
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding: 50px;
-      }
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jk-Artwork Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+             <!-- My Style --> 
+<style>
+   .btn{
+       margin-left:0px;
+       color:white ;
+       background-color:blue;
+       border:none;
+       border-radius:4px;
+       font-weight:150px;
+   }
+   
+  .btn:hover{
+      background-color:skyblue;
+      color:white ;
+      cursor: 0.99s easy;
+  }
+  
+ .h1{
+     color:darkblue;
+     text-align:center ;
+     font-weight:1500;
+ }
+ 
+ p{
+    color:darkred;
+ }
+</style>
+<body style="background-color: yellow; text-align:center;">
 
-      h1 {
-        color: #ff4500; /* Orange heading */
-        font-size: 3em;
-      }
+    <header>
+        <h1 class="h1">You are welcome to Our Artworks Services</h1>
+        <nav>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-      p {
-        color: #333;
-        font-size: 1.2em;
-      }
+    <section id="gallery" class="gallery-section">
+        <h2>Our artworks</h2><br>
 
-      button {
-        background-color: #ff4500;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        font-size: 1em;
-        border-radius: 5px;
-        cursor: pointer;
-      }
+        <div class="gallery">
+            <div class="card">
+                <img src="homedecoration.jpg" alt="Artwork 1" width="200px" height="150px">
+                <p>Mural painting</p><br>
+            </div>
 
-      button:hover {
-        background-color: #ff6347; /* Changes color on hover */
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Welcome to My Page</h1>
-    <p>This is a simple paragraph.</p>
-    <button>Click here</button>
-  </body>
+            <div class="card">
+                <img src="canvas.jpg" alt="Artwork 2" width="200px" height="150px">
+                <p>Canvas </p><br>
+            </div>
+
+            <div class="card">
+                <img src="signpost.jpg" alt="Artwork 3" width="200px" height="150px">
+                <p>Sign Post</p>
+            </div>
+        </div><br>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 style="color:darkblue;">About us</h2>
+        <p>We are a visual artist dedicated to transforming ideas into powerful images. Our work explores creativity, emotion, and storytelling through color, form, and design. We aim to create art that captures attention, inspires imagination, and speaks without words. Every piece We create reflects passion, growth, and a deep love for artistic expression. We believe art is a universal language—and through our work, We connect with people everywhere.</p>
+    </section>
+
+    <section id="contact" class="contact-section"><br>
+        <h2>Contact Us</h2>
+        <p>Email: jkgoldenart@gmail.com</p>
+        <p>Facebook: <a href="https://www.facebook.com/juankelly.uwizera">JK-Golden Art</a></p>
+        <p>Call us: +254711441295
+    </section><br><br>
+
+    <footer>
+        <p style="text-align:center">© 2025 My Artwork. All Rights Reserved.</p>
+    </footer>
+    
+    <p style="text-align:center;">To know more about us</p>
+    <a  href="https://vm.tiktok.com/ZSHTqFPKgwkG2-ll3DA/" ><button class ="btn">Click here</button></a>
+</body>
 </html>
